@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Oolite
+Comment=An OpenGL Elite-like space game
+Exec=run_oolite.sh
+Icon=space.oolite.Oolite
+Terminal=false
+Type=Application
+Categories=Game;Simulation;
+StartupWMClass=oolite
