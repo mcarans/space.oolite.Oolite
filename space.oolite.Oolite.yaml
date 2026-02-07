@@ -130,10 +130,6 @@ modules:
         tag: "1.92"
         commit: ca6d91a33b7acd5b80a307a9f12643281a36f423
       - type: file
-        path: space.oolite.Oolite.metainfo.xml
-      - type: file
-        path: space.oolite.Oolite.desktop
-      - type: file
         url: https://wiki.alioth.net/img_auth.php/a/a2/Oolite-logo3.png
         sha256: e1d13be05d665480d034ff5f824ab5463463f16dd411de25f870522e3d3e45b1
         dest-filename: Oolite-logo3.png
