@@ -95,8 +95,6 @@ modules:
         commit: 2b236ec2c4816e7ff482f07dc973b655a3780122
   - name: oolite
     buildsystem: simple
-    secret-env:
-      - VERSION_OVERRIDE
     build-commands:
       - |
         source /app/share/GNUstep/Makefiles/GNUstep.sh
