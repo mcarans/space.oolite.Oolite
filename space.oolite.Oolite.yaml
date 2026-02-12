@@ -107,5 +107,5 @@ modules:
         dest-filename: Oolite-logo3.png
       - type: git
         url: https://github.com/OoliteProject/oolite.git
-        tag: "1.92.0.1"
-        commit: 488538ba121a1f792a23f4af3dd02bcc831cd034
+        tag: "1.92.0.2"
+        commit: ebb6b0a6217149a6986f030094956fd339816cec
