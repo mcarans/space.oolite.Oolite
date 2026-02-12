@@ -4,8 +4,6 @@ runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.llvm21
-only-arches:
-  - x86_64
 build-options:
   append-path: /usr/lib/sdk/llvm21/bin
   prepend-ld-library-path: /usr/lib/sdk/llvm21/lib
@@ -96,6 +94,8 @@ modules:
         url: https://github.com/gnustep/libs-base.git
         commit: 2b236ec2c4816e7ff482f07dc973b655a3780122
   - name: oolite
+    only-arches:
+      - x86_64
     buildsystem: simple
     build-commands:
       - |
